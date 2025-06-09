@@ -243,7 +243,7 @@ func (t *Team) RunProject(ctx context.Context) {
 }
 
 func main() {
-	apiKey := "2f168445fe4a4663823a2e227a4b952c" // Azure API密钥
+	apiKey := "" // Azure API密钥
 	azureEndpoint := "https://azure-openai-wus3.openai.azure.com/" // Azure终结点
 	
 	// 创建Azure OpenAI客户端配置
